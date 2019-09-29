@@ -9,9 +9,12 @@
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
     "antd": "^3.9.2",
+    "axios": "^0.19.0",
     "babel-plugin-import": "^1.9.1",
     "next": "latest",
+    "now": "^16.2.0",
     "null-loader": "2.0.0",
+    "pipedrive": "^8.0.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0"
   },

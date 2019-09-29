@@ -313,10 +313,10 @@ __webpack_require__(/*! ../../empty/style/css */ "./node_modules/antd/lib/empty/
 
 /***/ }),
 
-/***/ "./pages/index.js":
-/*!************************!*\
-  !*** ./pages/index.js ***!
-  \************************/
+/***/ "./pages/components/form.js":
+/*!**********************************!*\
+  !*** ./pages/components/form.js ***!
+  \**********************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -344,8 +344,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var antd_lib_form__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(antd_lib_form__WEBPACK_IMPORTED_MODULE_9__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! react-dom */ "react-dom");
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_11__);
 
 
 
@@ -356,9 +354,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "D:\\Works and Compositions\\Launchcap\\orange\\pages\\index.js";
+var _jsxFileName = "D:\\Works and Compositions\\Launchcap\\orange\\pages\\components\\form.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement;
-
 
 const FormItem = antd_lib_form__WEBPACK_IMPORTED_MODULE_9___default.a.Item;
 const Option = antd_lib_select__WEBPACK_IMPORTED_MODULE_7___default.a.Option;
@@ -379,21 +376,21 @@ class LaunchForm extends react__WEBPACK_IMPORTED_MODULE_10___default.a.Component
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 25
+        lineNumber: 21
       },
       __self: this
     }, __jsx(Option, {
       value: "86",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 26
+        lineNumber: 22
       },
       __self: this
     }, "+86"), __jsx(Option, {
       value: "87",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 27
+        lineNumber: 23
       },
       __self: this
     }, "+87")));
@@ -403,14 +400,23 @@ class LaunchForm extends react__WEBPACK_IMPORTED_MODULE_10___default.a.Component
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 32
+        lineNumber: 28
       },
       __self: this
-    }, __jsx(antd_lib_form__WEBPACK_IMPORTED_MODULE_9___default.a, {
+    }, __jsx("h1", {
+      style: {
+        textAlign: 'center'
+      },
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 29
+      },
+      __self: this
+    }, "Launchcap Form"), __jsx(antd_lib_form__WEBPACK_IMPORTED_MODULE_9___default.a, {
       layout: "horizontal",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 33
+        lineNumber: 30
       },
       __self: this
     }, __jsx(FormItem, {
@@ -424,7 +430,7 @@ class LaunchForm extends react__WEBPACK_IMPORTED_MODULE_10___default.a.Component
       required: "true",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 34
+        lineNumber: 31
       },
       __self: this
     }, __jsx(antd_lib_input__WEBPACK_IMPORTED_MODULE_5___default.a, {
@@ -432,7 +438,7 @@ class LaunchForm extends react__WEBPACK_IMPORTED_MODULE_10___default.a.Component
       name: "name",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 40
+        lineNumber: 37
       },
       __self: this
     })), __jsx(FormItem, {
@@ -446,14 +452,14 @@ class LaunchForm extends react__WEBPACK_IMPORTED_MODULE_10___default.a.Component
       required: "true",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 46
+        lineNumber: 43
       },
       __self: this
     }, __jsx(antd_lib_input__WEBPACK_IMPORTED_MODULE_5___default.a, {
       placeholder: "Doe",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 52
+        lineNumber: 49
       },
       __self: this
     })), __jsx(FormItem, {
@@ -467,14 +473,14 @@ class LaunchForm extends react__WEBPACK_IMPORTED_MODULE_10___default.a.Component
       required: "true",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 57
+        lineNumber: 54
       },
       __self: this
     }, __jsx(antd_lib_input__WEBPACK_IMPORTED_MODULE_5___default.a, {
       placeholder: "john.doe@example.com",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 63
+        lineNumber: 60
       },
       __self: this
     })), __jsx(FormItem, {
@@ -489,7 +495,7 @@ class LaunchForm extends react__WEBPACK_IMPORTED_MODULE_10___default.a.Component
       required: "true",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 68
+        lineNumber: 65
       },
       __self: this
     }, __jsx(antd_lib_input_number__WEBPACK_IMPORTED_MODULE_3___default.a, {
@@ -500,7 +506,7 @@ class LaunchForm extends react__WEBPACK_IMPORTED_MODULE_10___default.a.Component
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 75
+        lineNumber: 72
       },
       __self: this
     })), __jsx(FormItem, {
@@ -514,14 +520,14 @@ class LaunchForm extends react__WEBPACK_IMPORTED_MODULE_10___default.a.Component
       required: "true",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 82
+        lineNumber: 79
       },
       __self: this
     }, __jsx(antd_lib_input__WEBPACK_IMPORTED_MODULE_5___default.a, {
       placeholder: "Launchcap Pty. Ltd.",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 88
+        lineNumber: 85
       },
       __self: this
     })), __jsx(FormItem, {
@@ -535,7 +541,7 @@ class LaunchForm extends react__WEBPACK_IMPORTED_MODULE_10___default.a.Component
       required: "true",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 94
+        lineNumber: 91
       },
       __self: this
     }, __jsx(TextArea, {
@@ -552,7 +558,7 @@ class LaunchForm extends react__WEBPACK_IMPORTED_MODULE_10___default.a.Component
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 100
+        lineNumber: 97
       },
       __self: this
     })), __jsx(FormItem, {
@@ -565,7 +571,7 @@ class LaunchForm extends react__WEBPACK_IMPORTED_MODULE_10___default.a.Component
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 108
+        lineNumber: 105
       },
       __self: this
     }, __jsx(antd_lib_button__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -574,7 +580,7 @@ class LaunchForm extends react__WEBPACK_IMPORTED_MODULE_10___default.a.Component
       htmlType: "submit",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 109
+        lineNumber: 106
       },
       __self: this
     }, "OK"), __jsx(antd_lib_button__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -584,22 +590,62 @@ class LaunchForm extends react__WEBPACK_IMPORTED_MODULE_10___default.a.Component
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 112
+        lineNumber: 109
       },
       __self: this
     }, "Cancel"))));
   }
 
-} // const LaunchRegForm = Form.create()(LaunchForm)
-// ReactDOM.render(<LaunchRegForm/>, document.getElementById('root'))
-
+}
 
 const LaunchRegForm = antd_lib_form__WEBPACK_IMPORTED_MODULE_9___default.a.create({
   name: 'register'
-})(LaunchForm); // ReactDOM.render(<LaunchRegForm />, root);
-
+})(LaunchForm);
 
 /* harmony default export */ __webpack_exports__["default"] = (LaunchRegForm);
+
+/***/ }),
+
+/***/ "./pages/index.js":
+/*!************************!*\
+  !*** ./pages/index.js ***!
+  \************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_form__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/form */ "./pages/components/form.js");
+var _jsxFileName = "D:\\Works and Compositions\\Launchcap\\orange\\pages\\index.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+class Home extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  render() {
+    return __jsx("div", {
+      style: {
+        marginTop: 100
+      },
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 7
+      },
+      __self: this
+    }, __jsx(_components_form__WEBPACK_IMPORTED_MODULE_1__["default"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 8
+      },
+      __self: this
+    }));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Home);
 
 /***/ }),
 
@@ -678,17 +724,6 @@ module.exports = require("antd/lib/select");
 /***/ (function(module, exports) {
 
 module.exports = require("react");
-
-/***/ }),
-
-/***/ "react-dom":
-/*!****************************!*\
-  !*** external "react-dom" ***!
-  \****************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("react-dom");
 
 /***/ })
 
