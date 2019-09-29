@@ -30,6 +30,7 @@ class LaunchForm extends React.Component {
   
     return(
       <div style={{ marginTop: 100 }}>
+        <h1>Launchcap Form</h1>
       <Form layout='horizontal'>
         <FormItem
           label='First Name'
